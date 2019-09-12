@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVIGATION */
+
+.navBar {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    margin-left: 5px;
+}
+
+.navBar button {
+    border: none;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    text-decoration: underline;
+    color: beige;
+}
+
+.navBar img {
+    height: 50px;
+    width: 100px;
+}
+
+.fab {
+    color: #fff;
+}
+
+.fab:hover {
+    color: beige;
+}
+
+.apps {
+    margin-right: 30px;
+}
+
+/* LOGIN / REGISTER FORM */
+
+.container-form {
+    margin-right: 150px;
+    margin-bottom: 200px;
+}
+
+form {
+    margin-top: 150px;
+    width: 60%;
+}
+
+button a {
+    color: #fff;
+}
+
+button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+/* IMAGE SLIDER */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* GET THE GAME */
+
+.getGameContainer {
+    margin-top: 65px;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* CARDS */
+
+.cards {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #343a40;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    
+}
+
+footer .col-md-4 {
+    width: 100%;
+    height: 100%;
+}
+
+footer img {
+    height: 75px;
+    width: 100px;
+}
+
+.ourHours {
+    padding-top: 20px;
+}
+
+.ourLocations {
+    padding-top: 20px;
+}
+
+#back-to-top-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: #343a40;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #343a40;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+}
+
+#back-to-top-btn:hover {
+    background-color: #a7a7a7;
+    color: #343a40 ;
+}
+
+/* PROFILE */
+.extra_margin{
+    margin-top: 10px;
+  }
